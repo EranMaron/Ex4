@@ -1,0 +1,374 @@
+ * {
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper {
+    margin: 0px auto;
+    width: 1305px;
+    height: 850px;
+}
+
+body {
+    background: #a8cfe6;
+}
+
+/****Left Container****/
+
+#leftContainer {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 800px;
+    margin-top: 50px;
+    background: #b4b4b4;
+}
+
+.form-control {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+}
+
+h1 {
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 5px;
+    color: #4a738d;
+    border-bottom: solid #a8cfe6;
+}
+
+#message {
+    position: absolute;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #006909;
+    left: 5px;
+    top: 5px;
+}
+
+p {
+    position: relative;
+    font-family: Arial;
+    color: #474747;
+    margin: 15px 0 0 15px;
+}
+
+#myForm {
+    width: 300px;
+    height: 600px;
+    margin-top: 30px;
+}
+
+#example-name-input {
+    float: left;
+    width: 120px;
+    height: 28px;
+    border: solid 2px #a8cfe6;
+    border-radius: 8px;
+    margin-left: 15px;
+    padding-left: 10px;
+    background: #a8a7a7;
+}
+
+#example-password-input {
+    width: 120px;
+    height: 28px;
+    border: solid 2px #a8cfe6;
+    border-radius: 8px;
+    margin-left: 5px;
+    padding-left: 10px;
+    background: #a8a7a7;
+}
+
+#example-email-input {
+    width: 260px;
+    height: 28px;
+    border: solid 2px #a8cfe6;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    background: #a8a7a7;
+}
+
+#example-url-input {
+    width: 260px;
+    height: 28px;
+    border: solid 2px #a8cfe6;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    background: #a8a7a7;
+}
+
+#example-text-input, #example-tel-input {
+    width: 260px;
+    height: 28px;
+    border: solid 2px #a8cfe6;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    background: #a8a7a7;
+}
+
+#boxAlert {
+    position: absolute;
+    width: 280px;
+    height: 65px;
+    border: solid 1px #a8cfe6;
+    bottom: 78px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+#validBtn {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    background: #a8a7a7
+}
+
+#formControlRange {
+    float: left;
+    width: 200px;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+#example-number-input {
+
+    width: 40px;
+    height: 28px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: solid 2px #a8cfe6;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #a8a7a7;
+}
+
+.checkbox-inline {
+    font-family: Arial;
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1c1d1d;
+}
+
+#check1, #check2, #check3 {
+    width: 40px;
+}
+
+.radio-inline {
+    font-family: Arial;
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #1c1d1d;
+}
+
+#select {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 30px;
+    height: 50px;
+}
+
+#sel1 {
+    width: 260px;
+    height: 28px;
+    border: solid 2px #a8cfe6;
+    border-radius: 8px;
+    padding-left: 10px;
+    color: #1c1d1d;
+    background: #a8a7a7;
+}
+
+#sel1 > option {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #1c1d1d;
+}
+
+h3 {
+    position: relative;
+    width:300px;
+    height: 28px;
+    font-family: Arial;
+    font-size: 20px;
+    color: #3f4141;    
+}
+
+#sub {
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    margin-left: 75px;
+    bottom: 30px;
+    border: solid 2px #fff;
+    border-radius: 8px;
+    font-size: 12px;
+    background: #a8cfe6;
+}
+
+/****Right Container****/
+
+#backgroundImg {
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+}
+
+#lightImg {
+    position: absolute;
+    width: 260px;
+    height: 70px;
+    left: 390px;
+    top: 100px;
+    opacity: 1;
+}
+
+#lampImg {
+    position: absolute;
+    width: 260px;
+    height: 70px;
+    left: 580px;
+    top: 310px;
+    opacity: 0;
+}
+
+#rigthContainer {
+    position: relative;
+    float: right;
+    width: 1000px;
+    height: 800px;
+    margin-top: 50px;
+}
+
+#nameBox {
+    position: absolute;
+    width: 85px;
+    height: 110px;
+    top: 210px;
+    left: 60px;
+    cursor: pointer;
+}
+
+#passBox {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 158px;
+    left: 545px;
+    cursor: pointer;
+}
+
+#mailBox {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 158px;
+    left: 545px;
+    cursor: pointer;
+}
+
+#addrBox {
+    position: absolute;
+    width: 120px;
+    height: 130px;
+    top: 665px;
+    left: 222px;
+    cursor: pointer;
+}
+
+#passBox {
+    position: absolute;
+    width: 105px;
+    height: 152px;
+    top: 578px;
+    left: 30px;
+    cursor: pointer;
+}
+
+#webBox {
+    position: absolute;
+    width: 50px;
+    height: 42px;
+    top: 417px;
+    left: 512px;
+    cursor: pointer;
+}
+
+#phoneBox {
+    position: absolute;
+    width: 46px;
+    height: 48px;
+    top: 432px;
+    left: 568px;
+    cursor: pointer;
+}
+
+#rangeBox {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 420px;
+    left: 180px;
+    cursor: pointer;
+}
+
+#numberBox {
+    position: absolute;
+    width: 20px;
+    height: 35px;
+    top: 695px;
+    left: 820px;
+    transform: rotate(340deg);
+    cursor: pointer;
+}
+
+#checkBox {
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    top: 70px;
+    left: 730px;
+    cursor: pointer;
+}
+
+#radioBox {
+    position: absolute;
+    width: 48px;
+    height: 20px;
+    top: 400px;
+    left: 657px;
+    cursor: pointer;
+}
+
+#listBox {
+    position: absolute;
+    width: 260px;
+    height: 80px;
+    top: 320px;
+    left: 700px;
+    cursor: pointer;
+}
